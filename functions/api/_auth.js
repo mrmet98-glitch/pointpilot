@@ -1,7 +1,7 @@
 const SESSION_COOKIE = 'pp_session';
 const ADMIN_SESSION_COOKIE = 'pp_admin_session';
 const SESSION_MAX_AGE_SECONDS = 60 * 60 * 24 * 30;
-const PASSWORD_ITERATIONS = 210000;
+const PASSWORD_ITERATIONS = 100000;
 
 export const jsonHeaders = {
   'Content-Type': 'application/json; charset=utf-8',
